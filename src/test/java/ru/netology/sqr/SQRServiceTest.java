@@ -6,24 +6,24 @@ import org.junit.jupiter.api.Test;
 public class SQRServiceTest {
 
     @Test
-    public void test1(){
+    public void test1() {
         SQRService service = new SQRService();
 
-        int actual = service.squared(200,300);
-        int expected =3;
+        int actual = service.squared(200, 300);
+        int expected = 3;
 
-        Assertions.assertEquals(actual,expected);
+        Assertions.assertEquals(actual, expected);
 
     }
 
     @Test
-    public void test2(){
+    public void test2() {
         SQRService service = new SQRService();
 
-        int actual = service.squared(200,500);
-        int expected =8;
+        int actual = service.squared(200, 500);
+        int expected = 8;
 
-        Assertions.assertEquals(actual,expected);
+        Assertions.assertEquals(actual, expected);
 
     }
 
